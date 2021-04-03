@@ -1,0 +1,35 @@
+body {
+    background-color: #f8c281;
+}
+
+.alto {
+    height: 100vh;
+}
+
+.medio {
+    height: 13vh;
+}
+
+.pequeño {
+    height: 20vh;
+}
+
+.encabezado {
+    background-color: #080707;
+}
+
+.cuerpo1 {
+    background-color: #d10000;
+}
+
+.cuerpo2 {
+    background-color: #d10000;
+}
+
+.servicios {
+    background-color: #d10000;
+}
+
+.pie {
+    background-color: #d10000;
+}
