@@ -104,34 +104,32 @@ body {
 
 /*SEGUNDA FOTO Y PARRAFO QUE SE VE EN LA PAGINA*/
 
+#sobre {
+    width: 100%;
+}
+
 #sobre .titulo2 {
-    width: 90vh;
-    margin-left: 60vh;
-    margin-top: 6vh;
-    margin-right: 6vh;
-    float: left;
+    margin-top: 10vh;
+    margin-left: 50vh;
 }
 
 #sobre .parrafo2 {
-    float: left;
     width: 90vh;
+    margin-left: 10vh;
     margin-top: 5vh;
-    margin-bottom: 10vh;
-    margin-right: 10vh;
+    margin-right: 5vh;
+    float: right;
 }
 
 #sobre #imag {
-    clear: right;
-    margin-right: 10vh;
-    margin-top: 5vh;
-    float: right;
+    margin-left: 15vh;
 }
 
 
 /*PARTE DE ABAJO DE LA PAGINA*/
 
 .pie {
-    margin-top: 82vh;
+    margin-top: 60vh;
     height: 6vh;
     background-color: #333;
     clear: left;
