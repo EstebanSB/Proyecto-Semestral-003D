@@ -1,0 +1,145 @@
+/*AQUI SE CONFIGURA TODO LO BASICO DE LA PAGINA, TIPO DE LETRA, COLOR DE FONDO, ETC.*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: #a9a9a9;
+}
+
+
+/*ENCABEZADO - PARTE DE ARRIBA DE LA PAGINA*/
+
+#encabezado {
+    background-color: #00ffff;
+    width: 100%;
+}
+
+#encabezado h1 {
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 5px 5px 2px black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+
+/*MENU DE NAVEGACION*/
+
+.menu {
+    width: 100%;
+    height: 12vh;
+    text-align: center;
+    margin-top: 5vh;
+    background-color: #333;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li:hover {
+    background-color: #8b0000;
+}
+
+.menu li a {
+    color: #f5deb3;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 16px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.active {
+    background-color: #046d04;
+}
+
+
+/*LOGO QUE APARECE EN LA PARTE DE ARRIBA DE LA PAGINA*/
+
+#logo {
+    padding-top: 1vh;
+    text-align: center;
+}
+
+#img {
+    width: 150px;
+}
+
+
+/*PRIMERA PARTE DEL CUERPO DE LA PAGINA - PRIMERA FOTO Y PARRAFO QUE SE PUEDE VER*/
+
+#historia {
+    width: 100%;
+}
+
+.titulo {
+    margin-top: 10vh;
+    margin-left: 60vh;
+}
+
+.parrafo {
+    width: 90vh;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    margin-right: 5vh;
+    float: right;
+}
+
+#historia #img img {
+    margin-left: 15vh;
+}
+
+
+/*SEGUNDA FOTO Y PARRAFO QUE SE VE EN LA PAGINA*/
+
+#sobre .titulo2 {
+    width: 90vh;
+    margin-left: 60vh;
+    margin-top: 6vh;
+    margin-right: 6vh;
+    float: left;
+}
+
+#sobre .parrafo2 {
+    float: left;
+    width: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-right: 10vh;
+}
+
+#sobre #imag {
+    clear: right;
+    margin-right: 10vh;
+    margin-top: 5vh;
+    float: right;
+}
+
+
+/*PARTE DE ABAJO DE LA PAGINA*/
+
+.pie {
+    margin-top: 82vh;
+    height: 6vh;
+    background-color: #333;
+    clear: left;
+}
+
+.pie p {
+    line-height: 5vh;
+    font-size: 20px;
+    color: white;
+    margin-left: 5vh;
+}
